@@ -3,3 +3,21 @@ body {
     padding: 0 2em;
 }
 
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-bottom: 0; 
+} 
+
+p {
+    margin: .5em 0;
+}
+
+p + h1 +h3 {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 1em 0;
+}
